@@ -842,13 +842,11 @@ Führen Sie die folgenden Schritte aus, um HTTP-Skalierungsregeln für Ihre Cont
 
 1. Stellen Sie sicher, dass Ihre Container-App im Portal geöffnet ist.
 
-1. Wählen Sie im linken Menü unter „Anwendung“ die Option **Überarbeitungen** aus.
+1. Wählen Sie im linken Menü unter „Anwendung“ die Option **Überarbeitungen und Replikate** aus.
 
 1. Beachten Sie den Namen, der Ihrer aktiven Überarbeitung zugewiesen ist.
 
-1. Wählen Sie im linken Menü unter „Anwendung“ die Option **Skalierung und Replikate** aus.
-
-1. Stellen Sie rechts von „Überarbeitung“ sicher, dass die aktive Überarbeitung ausgewählt ist.
+1. Wählen Sie im linken Menü unter „Anwendung“ die Option **Skalieren** aus.
 
 1. Wählen Sie oben auf der Seite **Bearbeiten und bereitstellen** aus.
 
@@ -1038,7 +1036,7 @@ Führen Sie die folgenden Schritte aus, um die Überarbeitungsverwaltung auf „
 
 1. Öffnen Sie im Azure-Portal Ihre Container-App-Ressource.
 
-1. Wählen Sie im linken Menü unter „Anwendung“ die Option **Überarbeitungen** aus.
+1. Wählen Sie im linken Menü unter „Anwendung“ die Option **Überarbeitungen und Replikate** aus.
 
 1. Wählen Sie oben auf der Seite „Revisionen“ die Option **Revisionsmodus auswählen** aus.
 
@@ -1087,13 +1085,13 @@ Führen Sie die folgenden Schritte aus, um Bezeichnungen für die Überarbeitung
 
     - Unsichere Verbindungen: Stellen Sie sicher, dass „Zulässig“ **NICHT** aktiviert ist.
 
-    - Zielport: **80** eingeben
+    - Zielport: **5000** eingeben
 
     - Modus für IP-Sicherheitseinschränkungen: Stellen Sie sicher, dass **Allen Datenverkehr zulassen** ausgewählt ist.
 
 1. Wählen Sie unten auf der Seite „Eingang“ die Option **Speichern** aus und warten Sie dann, bis das Update abgeschlossen ist.
 
-1. Wählen Sie im linken Menü unter „Revisionen“ die Option **Revisionen** aus.
+1. Wählen Sie im linken Menü unter „Überarbeitungen“ die Option **Überarbeitungen und Replikate** aus.
 
 1. Geben Sie für die v2-Revision unter „Bezeichnung“ den Eintrag **Aktualisiert** ein.
 
