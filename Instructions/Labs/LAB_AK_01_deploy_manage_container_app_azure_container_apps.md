@@ -848,11 +848,7 @@ Führen Sie die folgenden Schritte aus, um HTTP-Skalierungsregeln für Ihre Cont
 
 1. Wählen Sie im linken Menü unter „Anwendung“ die Option **Skalieren** aus.
 
-1. Wählen Sie oben auf der Seite **Bearbeiten und bereitstellen** aus.
-
-1. Wählen Sie unten auf der Seite die Option **Weiter: Skalieren** aus.
-
-1. Konfigurieren Sie „Min./max. Anzahl von Replikaten“ folgendermaßen:
+1. Beachten Sie die aktuelle **Skalierungsregeleinstellung**, konfigurieren Sie die Mindest-/Höchstzahl von Replikaten wie folgt:
 
     - Mindestzahl von Replikaten: 0
     - Höchstzahl von Replikaten: 2
@@ -867,11 +863,11 @@ Führen Sie die folgenden Schritte aus, um HTTP-Skalierungsregeln für Ihre Cont
 
 1. Wählen Sie auf der Seite „Skalierungsregel hinzufügen“ die Option **Hinzufügen** aus.
 
-1. Wählen Sie auf der Seite „Erstellen und Bereitstellen einer neuen Revision“ die Option **Erstellen** aus.
+1. Wählen Sie auf der Seite „Skalieren“ die Option **Als neue Überarbeitung speichern** aus.
 
 1. Vergewissern Sie sich, dass die neue Skalierungsregel angezeigt wird.
 
-    Wenn die Skalierungsregel nach dem Aktualisieren nicht angezeigt wird, überprüfen Sie die Registerkarte „Überarbeitungen“, um die aktuelle aktive Überarbeitung anzuzeigen, und passen Sie die ausgewählte Überarbeitung bei Bedarf auf der Seite „Skalierung“ und „Replikate“ an.
+    Wenn die Skalierungsregel nach dem Aktualisieren nicht angezeigt wird, überprüfen Sie die ausgewählte Überarbeitung, um die aktuelle aktive Überarbeitung anzuzeigen, und passen Sie die ausgewählte Überarbeitung bei Bedarf auf der Seite „Skalierung“ und „Replikate“ an.
 
 ### Übung 6: Konfigurieren der Continuous Integration mithilfe von Azure Pipelines
 
