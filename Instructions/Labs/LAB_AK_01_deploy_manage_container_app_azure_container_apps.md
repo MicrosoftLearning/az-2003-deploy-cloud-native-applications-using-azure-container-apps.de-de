@@ -342,13 +342,15 @@ Führen Sie die folgenden Schritte aus, um das Azure DevOps-Projekt zu konfigur
     - Beschreibung: **AZ2003-Codeprojekt**
     - Sichtbarkeit: **Öffentlich**
 
-1. Wählen Sie **Projekt erstellen** aus.
+1. Klicken Sie auf **Erstellen**.
+
+1. Wählen Sie **AZ2003Project** aus.
 
 1. Wählen Sie im linken Menü Ihrer AZ2003Project-Seite **Repositorys** aus.
 
-1. Wählen Sie unter „Mainbranch mit einer README oder gitignore initialisieren“ **Initialisieren**aus.
+1. Wählen Sie unter „Alle Repositorys“ die Option **AZ2003Project** und dann **Durchsuchen** aus.
 
-1. Wählen Sie **Klonen** und anschließend **In VS Code klonen** aus.
+1. Wählen Sie **In VS Code klonen** aus.
 
 1. Wählen Sie im Dialogfeld „Diese Website versucht, das Dialogfeld Visual Studio Code zu öffnen“ **Öffnen** aus.
 
@@ -801,7 +803,7 @@ Führen Sie die folgenden Schritte aus, um die Container-App so zu konfigurieren
 
 1. Öffnen Sie im Azure-Portal die von Ihnen erstellte Container-App.
 
-1. Wählen Sie unter „Einstellungen“ die Option **Identitäts** aus.
+1. Wählen Sie unter „Sicherheit“ die Option **Identität** aus.
 
 1. Wählen Sie die Registerkarte für **Benutzerseitig zugewiesen** aus.
 
@@ -934,7 +936,7 @@ Führen Sie die folgenden Schritte aus, um Pipeline1 mit einer Azure Container A
 
     - Name
     - Registrierung
-    - Abbildung
+    - Bild
     - Imagetag
 
 1. Verwenden Sie die Informationen, die Sie von der Seite „Container“ kopiert haben, um die folgenden-Aufgabeninformationsfelder zu konfigurieren:
@@ -1065,7 +1067,7 @@ Eingehender Datenverkehr muss aktiviert sein, bevor Sie Überarbeitungsbezeichnu
 
 Führen Sie die folgenden Schritte aus, um Bezeichnungen für die Überarbeitungen zu konfigurieren.
 
-1. Wählen Sie im linken Menü unter „Einstellungen“ die Option **Eingang** aus.
+1. Wählen Sie im linken Menü unter „Netzwerk“ die Option **Eingang** aus.
 
 1. Wenn „Eingang“ nicht aktiviert ist, wählen Sie **Aktiviert** aus.
 
