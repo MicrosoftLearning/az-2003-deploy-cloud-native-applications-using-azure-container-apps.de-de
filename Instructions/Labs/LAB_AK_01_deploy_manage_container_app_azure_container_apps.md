@@ -456,6 +456,13 @@ Führen Sie die folgenden Schritte aus, um ein Docker-Image zu erstellen und das
 
 1. Wählen Sie im linken Menü zum Öffnen der Docker-Ansicht Docker aus.
 
+1. Stellen Sie vor dem Herstellen einer Verbindung mit der Registrierung sicher, dass Sie in Visual Studio Code ordnungsgemäß bei Azure authentifiziert sind:
+
+    - Wählen Sie auf der Leiste „Aktivität“ das Symbol **Azure** aus.
+    - Erweitern Sie in der Azure-Ansicht **KONTEN UND MANDANTEN**.
+    - Vergewissern Sie sich, dass Ihr Azure-Konto aufgeführt wird und ausgewählt (aktiviert) ist. Falls nicht, wählen Sie Ihr Konto zur Authentifizierung aus.
+    - Wenn Sie sich anmelden müssen, wählen Sie **Anmelden bei Azure** aus, und schließen Sie den Authentifizierungsprozess ab.
+
 1. Wählen Sie in der DOCKER-Ansicht unter Registrierungen **Registrierung verbinden** aus, und wählen Sie dann **Azure Azure Container Registry** aus.
 
 1. Erweitern Sie in der DOCKER-Ansicht **Azure** und wählen Sie dann **Zulassen** aus.
